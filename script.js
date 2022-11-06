@@ -8,7 +8,7 @@ function press(num){
 
 function equal(){
     // необходимо заменить функцию eval а также сделать замену оперторов друг другом
-    userInput.value = eval(expression);
+    userInput.value = Function("return " + expression)();
     expression = '';
 }
 

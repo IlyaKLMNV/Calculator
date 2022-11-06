@@ -30,6 +30,7 @@ body {
     direction: ltr;
     outline: none;
     border: none;
+    font-size: 2rem;
 }
 
 .btn {
@@ -40,6 +41,7 @@ body {
     outline: none;
     margin-top: 3px;
     background: whitesmoke;
+    border: 1px solid #ceccca;
 }
 
 .btnEqual {
@@ -50,6 +52,7 @@ body {
     outline: none;
     margin-top: 3px;
     background: whitesmoke;
+    border: 1px solid #ceccca;
 }
 
 .btn:hover, .btnEqual:hover{
